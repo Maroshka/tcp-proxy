@@ -48,8 +48,6 @@ def recieve_from(sock):
 	
 	return buff
 
-
-
 def response_handler(buff):
 	# nothing special
 	buff = 'He says: '+buff
